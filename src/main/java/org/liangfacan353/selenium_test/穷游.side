@@ -1,0 +1,358 @@
+{
+  "id": "6f58d901-557b-4a3b-825e-784b6d414154",
+  "version": "2.0",
+  "name": "穷游",
+  "url": "https://www.qyer.com/",
+  "tests": [{
+    "id": "bdfff57c-4cac-43bc-9c38-0f6dc1c13843",
+    "name": "test",
+    "commands": [{
+      "id": "a05bcf83-236d-4e84-af0b-1c08dbc0323b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da899791-37f4-44c5-b885-045c0374981b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(2) span",
+      "targets": [
+        ["css=.nav-list:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/header/div/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'锦囊')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "231f48e4-915c-4947-9d75-2d1f87a51709",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(3) > .nav-span > span",
+      "targets": [
+        ["css=.nav-list:nth-child(3) > .nav-span > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/header/div/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'社区')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bfc15a0-82a8-4acf-bbc4-1a389f054c2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(4) span",
+      "targets": [
+        ["css=.nav-list:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='idxRootWrap']/div/div/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'行程助手')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95cac28e-8310-4c59-97d6-5a1c3b1d953b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover span:nth-child(1)",
+      "targets": [
+        ["css=.hover span:nth-child(1)", "css:finder"],
+        ["xpath=//div/div/ul/li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'商城')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "525cfa2d-3347-4762-8e7d-9eb60704ce01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .nav-span > span",
+      "targets": [
+        ["css=.hover > .nav-span > span", "css:finder"],
+        ["xpath=//div/div/ul/li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'酒店·民宿')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33be23f3-d76f-4204-86cc-207f5ccfad65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(7) span:nth-child(1)",
+      "targets": [
+        ["css=.nav-list:nth-child(7) span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/header/div/div/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'特价酒店')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bec444ac-6278-4618-a7e5-5be7c5a7496b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3Rl22yTx8wbRIFBBEXFOne > input",
+      "targets": [
+        ["css=.\\_3Rl22yTx8wbRIFBBEXFOne > input", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e75a1e7-dc4d-41a2-9a3f-6d42feceb48e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_3Rl22yTx8wbRIFBBEXFOne > input",
+      "targets": [
+        ["css=.\\_3Rl22yTx8wbRIFBBEXFOne > input", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "广州"
+    }, {
+      "id": "9b3aaef8-082c-4314-a46e-898656f6a477",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > p",
+      "targets": [
+        ["css=li > p", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/div/div[2]/ul/li[2]/p", "xpath:idRelative"],
+        ["xpath=//li[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'广州，中国Guangzhou')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7015526-28ce-49ba-add0-f3e2aa408b6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1NvUtOVR8BL55WjVD2JkAi",
+      "targets": [
+        ["css=.\\_1NvUtOVR8BL55WjVD2JkAi", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' 搜索特惠！')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "749c4d90-38d7-458b-b96d-92673cd124f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(7) span:nth-child(1)",
+      "targets": [
+        ["css=.nav-list:nth-child(7) span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/header/div/div/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'特价酒店')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "243462d7-4eb3-419b-9c92-934f5d613e30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1NvUtOVR8BL55WjVD2JkAi",
+      "targets": [
+        ["css=.\\_1NvUtOVR8BL55WjVD2JkAi", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' 搜索特惠！')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a40093d-f05d-478e-b169-fc4e3b49fcbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'帮你筛选全网特价酒店')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0e4645d0-085b-42d8-afff-0694a6a58c28",
+    "name": "qyer",
+    "commands": [{
+      "id": "11821547-8515-4858-9a9e-173908edf96d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.qyer.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50173c16-dbe0-49f6-8d20-c28ddd1c92a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1632x914",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a713a4e-5542-4472-afa8-043be0c73101",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(2) span",
+      "targets": [
+        ["css=.nav-list:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/header/div/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'锦囊')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3b79d4-4529-4652-8e57-fe5961d04b56",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=社区",
+      "targets": [
+        ["linkText=社区", "linkText"],
+        ["css=.nav-list:nth-child(3) > .nav-span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/header/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//bbs.qyer.com/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'社区')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ee7def2-711b-4439-bd85-ee1248787cec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=社区",
+      "targets": [
+        ["linkText=社区", "linkText"],
+        ["css=.nav-list:nth-child(3) > .nav-span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/header/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//bbs.qyer.com/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'社区')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2702e15-4b1a-45ce-ac98-f8815cac8f10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(3) > .nav-span > span",
+      "targets": [
+        ["css=.nav-list:nth-child(3) > .nav-span > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/header/div/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'社区')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "844363df-cfe4-4d13-8836-62c522547b0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(4) span",
+      "targets": [
+        ["css=.nav-list:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='idxRootWrap']/div/div/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'行程助手')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "942652b2-8558-4d62-87b7-61ae2ae20f1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover span:nth-child(1)",
+      "targets": [
+        ["css=.hover span:nth-child(1)", "css:finder"],
+        ["xpath=//div/div/ul/li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'商城')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9af9311-2571-4304-9ed1-df86f3ac8b5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .nav-span > span",
+      "targets": [
+        ["css=.hover > .nav-span > span", "css:finder"],
+        ["xpath=//div/div/ul/li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'酒店·民宿')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e393017-3452-4554-910d-af7c21e4de00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-list:nth-child(7) span:nth-child(1)",
+      "targets": [
+        ["css=.nav-list:nth-child(7) span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/header/div/div/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'特价酒店')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6035351f-0cea-4896-9707-8ea09be24dfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3Rl22yTx8wbRIFBBEXFOne > input",
+      "targets": [
+        ["css=.\\_3Rl22yTx8wbRIFBBEXFOne > input", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6e7b5a5-e75a-451a-aba8-0ab3a43ee90e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > p > span:nth-child(2)",
+      "targets": [
+        ["css=li > p > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/div/div[2]/ul/li[2]/p/span[2]", "xpath:idRelative"],
+        ["xpath=//p/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Guangzhou')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abc8ec9f-0cb2-4a12-bc0e-1d86bb65de12",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1NvUtOVR8BL55WjVD2JkAi",
+      "targets": [
+        ["css=.\\_1NvUtOVR8BL55WjVD2JkAi", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' 搜索特惠！')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ccacae-74b7-440f-a78e-bf8f12886263",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1NvUtOVR8BL55WjVD2JkAi",
+      "targets": [
+        ["css=.\\_1NvUtOVR8BL55WjVD2JkAi", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' 搜索特惠！')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d330c2-c0c1-41f0-8fe9-dfb7d3f6aee1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1NvUtOVR8BL55WjVD2JkAi",
+      "targets": [
+        ["css=.\\_1NvUtOVR8BL55WjVD2JkAi", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' 搜索特惠！')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f409da0e-3aed-4d0a-ab82-fdfabc9521a8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.qyer.com/"],
+  "plugins": []
+}
